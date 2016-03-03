@@ -41,10 +41,10 @@ activity_labels.txt - Links the class labels with their activity name.
 
 Read the above files and create data tables.
 
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names.
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names.
 
 leading t or f is based on time or frequency measurements.
 Body = related to body movement.
@@ -55,7 +55,7 @@ Jerk = sudden movement acceleration
 Mag = magnitude of movement
 mean and SD are calculated for each subject for each activity for each mean and SD measurements. The units given are g’s for the accelerometer and rad/sec for the gyro and g/sec and rad/sec/sec for the corresponding jerks.
 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 
