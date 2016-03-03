@@ -22,24 +22,33 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
+R Script (run_analysis.R) logical steps:
+
 Download the Data
 Load required packages
+
 Files in folder ‘UCI HAR Dataset’ that will be used are:
 
 SUBJECT FILES
+
 test/subject_test.txt
 train/subject_train.txt
+
 ACTIVITY FILES
+
 test/X_test.txt
 train/X_train.txt
+
 DATA FILES
+
 test/y_test.txt
 train/y_train.txt
+
 features.txt - Names of column variables in the dataTable
 
 activity_labels.txt - Links the class labels with their activity name.
 
-Read the above files and create data tables.
+Read the files and create data tables.
 
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
