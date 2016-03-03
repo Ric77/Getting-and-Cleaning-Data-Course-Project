@@ -11,7 +11,7 @@ Graded provided by peers on a series of yes/no questions related to the project.
 
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone
 
-You should create one R script called run_analysis.R that does the following.
+Creation of one R script called run_analysis.R that does the following.
 
 1.Merges the training and the test sets to create one data set.
 2.Extracts only the measurements on the mean and standard deviation for each measurement.
